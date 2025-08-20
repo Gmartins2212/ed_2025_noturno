@@ -10,8 +10,8 @@ public class Principal {
 		Revista r2 = new Revista();
 		r2.setNome("Turma da Mônica");
 		
-		System.out.println(r1.getNome());
-		System.out.println(r2.getNome());
+		System.out.println("Nome: "+r1.getNome());
+		System.out.println("Nome: "+r2.getNome());
 		
 		Revista r3 = new Revista();
 		r3.setAssunto("Automovel");
@@ -19,8 +19,8 @@ public class Principal {
 		Revista r4 = new Revista();
 		r4.setAssunto("Infantil");
 		
-		System.out.println(r3.getAssunto());
-		System.out.println(r4.getAssunto());
+		System.out.println("Assunto: "+r3.getAssunto());
+		System.out.println("Assunto: "+r4.getAssunto());
 		
 		Revista r5 = new Revista();
 		r5.setPaginas(500);
@@ -28,8 +28,8 @@ public class Principal {
 		Revista r6 = new Revista();
 		r6.setPaginas(400);
 		
-		System.out.println(r5.getPaginas());
-		System.out.println(r6.getPaginas());
+		System.out.println("Quantidade de páginas: "+r5.getPaginas());
+		System.out.println("Quantidade de páginas: "+r6.getPaginas());
 		
 		
 	}
