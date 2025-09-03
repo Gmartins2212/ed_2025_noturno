@@ -38,14 +38,22 @@ public class Principal {
 		L1.alimentar();
 		
 		
-		minhaLista.add(L1);
-		minhaLista.add(G1);
 		minhaLista.add(C1);
 		
-		System.out.println("Imprimindo a lista:");
-		for (Animal animal : minhaLista) {
-			System.out.println(animal.getNome());
+		minhaLista.add(G1);
 		
+		minhaLista.add(L1);
+		
+		System.out.println("Imprimindo a lista do nome dos animais:");
+		for (Animal animal : minhaLista) {
+			System.out.println("Nome: "+animal.getNome());
+			System.out.println("Idade: "+animal.getIdade());
+			System.out.println("Peso: "+animal.getPeso()+ " kg");
+			System.out.println("Habitate: "+animal.getHabitat());
+			System.out.println("Som: "+animal.emitirSom());
+			System.out.println("Alimento: "+animal.alimentar());
+			System.out.println("--------------------------------\n");
+			
 		}
 		
 	}
